@@ -1,0 +1,340 @@
+.bg {
+  width: 1260px;
+  height: 940px;
+  padding: 36px 160px 35px;
+  background-color: #edf2c5;
+  box-sizing: border-box;
+}
+
+/*以下為主視覺區*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 18px;
+}
+
+.Title_Vegetables {
+  width: 271px;
+  height: 40px;
+  margin: 0 0px 0px 0;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+}
+
+
+.button-bar {
+    margin-bottom: 0px;
+    display: flex;
+    height: 25px;
+    gap: 10px;
+}
+
+.button-display {
+  margin-bottom: 0px;
+  display: flex;
+  height: 25px;
+  gap: 10px;
+}
+
+.VerticalLine {
+  width: 1px;
+  height: 25px;
+  margin: 0 10px 18px;
+  background-color: #778a50;
+}
+
+.btn_LOGIN_box {
+  width: 60px;
+  height: 15px;
+  margin: 0px 5px 5px;
+  padding: 5px 7px;
+  border: 1px solid  #778a50;
+  text-align:center;
+  border-radius:5px;
+}
+
+.LOGIN {
+  width: 48px;
+  height: 25px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0;
+  letter-spacing: normal;
+  text-align:center;
+  color: #778a50;
+}
+
+.btn_JOIN_box {
+  width: 40px;
+  height: 15px;
+  margin: 0 0 5px 5px;
+  padding: 5px 7px;
+  border: 1px solid  #778a50;
+  text-align:center;
+  border-radius:5px;
+}
+
+.JOIN {
+  width: 48px;
+  height: 25px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0;
+  letter-spacing: normal;
+  text-align:center;
+  color: #778a50;
+}
+/*以上為主視覺區*/
+
+/*以下為選單區*/
+.nav_box {
+  width: 940px;
+  height: 44px;
+  margin: 18px 0 20px;
+  padding: 10px 316px 60px 20px;
+  border-radius: 3px;
+  background-color: #778a50;
+  box-sizing: border-box;
+}
+
+.Home {
+  width: 51px;
+  height: 23px;
+  margin: 0 20px 0 0;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #edf2c5;
+}
+
+.About-Us {
+  width: 80px;
+  height: 23px;
+  margin: 0 20px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+
+.Vegetables {
+  width: 98px;
+  height: 23px;
+  margin: 0 20px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+
+
+.Online {
+  width: 56px;
+  height: 23px;
+  margin: 0 20px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+
+.Contact {
+  width: 69px;
+  height: 23px;
+  margin: 0 0 0 20px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+/*以上為選單區*/
+
+/*以下為內容區*/
+img.img_main_pumpkin {
+  width: 940px;
+  height: 448px;
+  margin: 20px 0 30px;
+  object-fit: contain;
+}
+
+.content-row {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.body_box_vegetables {
+  width: 428px;
+  height: 45px;
+  margin: 30px 52px 15px 0;
+  padding: 10px 316px 12px 30px;
+  border-radius: 3px;
+  background-color: #778a50;
+  box-sizing: border-box;
+}
+
+.article_Vegetables {
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
+
+image.img_vegetables_pepper {
+  width: 140px;
+  height: 140px;
+  margin: 15px 12px 0;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+image.img_vegetables_carrot {
+  width: 140px;
+  height: 140px;
+  margin: 15px 12px 0;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+image.img_vegetables_corn {
+  width: 140px;
+  height: 140px;
+  margin: 15px 52px 0px 12px;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+.body_box_contact {
+  width: 444px;
+  height: 45px;
+  margin: 30px 12px 12px 15px;
+  padding: 10px 345px 12px 30px;
+  border-radius: 3px;
+  background-color: #778a50;
+  box-sizing: border-box;
+}
+
+.article_Contact {
+  width: 69px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+
+.body_box_contact_text {
+  width: 444px;
+  height: 140px;
+  margin: 12px 0 0 15px;
+  padding: 15px;
+  background-color: #f7fbda;
+  box-sizing: border-box;
+}
+
+.Text-list1 {
+  width: 414px;
+  height: 44px;
+  margin: 0 0 15px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+
+.Text-line {
+  width: 414px;
+  height: 1px;
+  margin: 15px 0;
+  background-color: #7d7d7d;
+}
+
+.Text-list2 {
+  width: 197px;
+  height: 35px;
+  margin: 15px 217px 0 0;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+/*以上為內容區*/
+
+
+.box_footer {
+  width: 1260px;
+  height: 60px;
+  padding: 23px 479px 23px 480px;
+  background-color: #778a50;
+  box-sizing: border-box;
+}
+
+.Copyrights {
+  width: 400px;
+  height: 14px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  box-sizing: border-box;
+}
